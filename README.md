@@ -4,6 +4,10 @@
 
 Analyze deterministic kernel execution traces, detect multi-run divergences, visualize causal relationships, and export reproducible forensic reports—all without mutating the core analysis.
 
+**Author** Daniel J. Dillberg   
+
+**Contact** bigdilly95@gmail.com
+
 ## Quick Start
 
 ```bash

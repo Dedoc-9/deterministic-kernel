@@ -20,6 +20,9 @@ This is a **research prototype** demonstrating deterministic trace analysis arch
 ✓ Reproducible and auditable (bitwise identical re-exports)  
 ✓ Appropriate for kernel development and determinism testing in controlled environments  
 
+The insight, correctly framed:
+"By freezing both data AND derived inference, interaction becomes non-invasive. The analyst can explore without fear of unknowingly triggering recomputation or stale views."
+
 ### What This System Is NOT
 
 This is explicitly NOT:

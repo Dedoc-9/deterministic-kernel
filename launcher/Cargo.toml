@@ -1,0 +1,17 @@
+[package]
+name = "deterministic-launcher"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+sha2 = "0.11.0"
+crossterm = "0.27"
+ratatui = "0.26"
+egui = "0.26"
+eframe = "0.26"
+
+[[bin]]
+name = "deterministic-launcher"
+path = "src/main.rs"

@@ -23,6 +23,17 @@ This is a **research prototype** demonstrating deterministic trace analysis arch
 The insight, correctly framed:
 "By freezing both data AND derived inference, interaction becomes non-invasive. The analyst can explore without fear of unknowingly triggering recomputation or stale views."
 
+Interaction in the Observatory is non-invasive with respect to both raw 
+trace data and derived forensic inference.
+
+All consensus results, operator attributions, and temporal projections are 
+computed once during initialization and remain immutable throughout the 
+session.
+
+User interaction (filtering, zooming, selection) operates exclusively over 
+this fixed analytical state, ensuring that exploration cannot induce 
+recomputation, approximation drift, or inconsistent intermediate views.
+
 ### What This System Is NOT
 
 This is explicitly NOT:
